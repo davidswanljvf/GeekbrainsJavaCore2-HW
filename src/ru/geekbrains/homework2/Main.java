@@ -12,7 +12,7 @@ public class Main {
         }catch(MyArrayDataException e){
             e.printStackTrace();
         }
-
+//
         try{
             sumArray(array2);
         }catch(MyArrayDataException e){
