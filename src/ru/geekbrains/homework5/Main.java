@@ -4,7 +4,7 @@ package ru.geekbrains.homework5;
 import java.util.Arrays;
 
 public class Main {
-    final static int size = 10000000;
+    final static int SIZE = 10000000; // подобные констатны всегда пишуться большими буквами
 
     public static void main(String[] args) {
         FullArray();
@@ -12,7 +12,7 @@ public class Main {
     }
 
     public static void FullArray() {
-        float[] array = new float[size];
+        float[] array = new float[SIZE];
         Arrays.fill(array, 1f);
         long t1 = System.currentTimeMillis();
         calc(array, 0);
@@ -20,9 +20,9 @@ public class Main {
     }
 
     public static void HalfArray() {
-        float[] array = new float[size];
+        float[] array = new float[SIZE];
         Arrays.fill(array, 1f);
-        int half = size / 2;
+        int half = SIZE / 2;
         float[] firstHalf = new float[half];
         float[] secondHalf = new float[half];
 
