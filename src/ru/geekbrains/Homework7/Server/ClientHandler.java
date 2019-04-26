@@ -1,13 +1,13 @@
-package ru.geekbrains.homework7.Server;
+package ru.geekbrains.Homework7.Server;
 
-import ru.geekbrains.homework7.Server_API;
+import ru.geekbrains.Homework7.Server_API;
 
 import java.io.DataInputStream;
 import java.io.DataOutputStream;
 import java.io.IOException;
 import java.net.Socket;
 
-public class ClientHandler implements Server_API{
+public class ClientHandler implements Server_API {
     private Server server;
     private Socket socket;
     private DataInputStream in;

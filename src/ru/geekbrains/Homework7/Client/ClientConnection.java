@@ -1,7 +1,7 @@
-package ru.geekbrains.homework7.Client;
+package ru.geekbrains.Homework7.Client;
 
-import ru.geekbrains.homework7.Server_API;
-import ru.geekbrains.homework7.ServerPort;
+import ru.geekbrains.Homework7.ServerPort;
+import ru.geekbrains.Homework7.Server_API;
 
 import java.io.DataInputStream;
 import java.io.DataOutputStream;

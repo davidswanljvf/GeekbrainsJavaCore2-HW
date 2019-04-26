@@ -1,14 +1,14 @@
-package ru.geekbrains.homework7.Server;
+package ru.geekbrains.Homework7.Server;
 
-import ru.geekbrains.homework7.Server_API;
-import ru.geekbrains.homework7.ServerPort;
+import ru.geekbrains.Homework7.ServerPort;
+import ru.geekbrains.Homework7.Server_API;
 
 import java.io.IOException;
 import java.net.ServerSocket;
 import java.net.Socket;
 import java.util.Vector;
 
-public class Server implements ServerPort, Server_API{
+public class Server implements ServerPort, Server_API {
     private Vector<ClientHandler> clients;
     private UserAuth authService;
     public UserAuth getAuthService(){

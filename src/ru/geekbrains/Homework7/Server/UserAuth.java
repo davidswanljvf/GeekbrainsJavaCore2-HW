@@ -1,4 +1,4 @@
-package ru.geekbrains.homework7.Server;
+package ru.geekbrains.Homework7.Server;
 
 public interface UserAuth {
     void start();

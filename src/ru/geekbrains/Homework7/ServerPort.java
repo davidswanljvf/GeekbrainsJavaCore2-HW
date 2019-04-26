@@ -1,4 +1,4 @@
-package ru.geekbrains.homework7;
+package ru.geekbrains.Homework7;
 
 public interface ServerPort {
     int PORT = 8189;

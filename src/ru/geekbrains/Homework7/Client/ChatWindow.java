@@ -1,4 +1,4 @@
-package ru.geekbrains.homework7.Client;
+package ru.geekbrains.Homework7.Client;
 
 import javax.swing.*;
 import java.awt.*;
