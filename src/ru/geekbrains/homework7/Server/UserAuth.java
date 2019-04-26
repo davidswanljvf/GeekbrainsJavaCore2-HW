@@ -1,0 +1,7 @@
+package ru.geekbrains.homework7.Server;
+
+public interface UserAuth {
+    void start();
+    void stop();
+    String getNickByLoginPass(String login, String pass);
+}
