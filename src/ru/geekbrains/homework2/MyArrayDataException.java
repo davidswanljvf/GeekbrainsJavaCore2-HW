@@ -1,5 +1,5 @@
 package ru.geekbrains.homework2;
-
+//
 public class MyArrayDataException extends RuntimeException{
     int i, j;
     public MyArrayDataException(int i, int j){
